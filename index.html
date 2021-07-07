@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume of Sharupya</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@1,600&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1"> 
+    
+
+</head>
+<body>
+    <section class="top-banner" >
+<div class="half-width">
+    <h2>Hello ! I'm </h2>
+       <h1><span class="name-highlight">Sharupya Barua</span></h1>
+    <p>To build up more bright carrier in private organization with the perceived knowledge through my attitude, hard work, honesty, punctually dedication and team work</p>
+    <a class="link-button" target="_blank" href="https://www.linkedin.com/in/sharupya-barua-67a704216/">HIRE ME</a>
+</div>
+
+<div class="half-width">
+    <img src="image/profile3.png" alt="">
+</div>
+    </section>
+
+    <section class="middle-banner">
+        <div class="half-width">
+            <img src="image/profile2.png" alt=""> 
+        </div>
+
+        <div class="half-width">
+            <h2><span class="pink">B</span><span class="ink">i</span><span class="pink">o</span><span class="ink">g</span><span class="pink">r</span><span class="ink">a</span><span class="pink">p</span><span class="ink">h</span><span class="pink">y</span>
+            </h2>
+            <p>Got Certificate from CSE Fest for performing on programming quiz in Premier .
+                Got Certificate from CSE Fest for performing on programming Idea Contest in Chittagong University of Engineering and Technology(CUET).
+                I have attended in many programming and web design contest.
+                Worked in a cyber café as.</p>
+                <a class="link-button" target="_blank" href="https://sharupya.github.io/Sharupya-s-Resume/">Download CV</a>
+
+        </div>
+    </section>
+
+    <section class="latest">
+
+        <h2 class="work">My Latest Work</h2>
+
+        <div class="mid-width">
+            <img src="2/1.jpg" alt="">
+            </div>
+            <div class="mid-width">
+            <img src="2/2.png" alt="">
+        </div>
+        <div class="mid-width">
+            <img src="2/3.jpg" alt="">
+
+        </div>
+
+    </section>
+
+
+  
+
+    <section>
+        <h1 class="work2">What Client Are Say</h1>
+<div>
+    <div class="slideshow-container">
+
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 3</div>
+          <img src="2/junu.jpg" style="width:100%">
+          <div class="text">
+              
+          </div>
+          <h2 class="carosel">Md Junaed Islam</h2>
+          <h3 class="t1">Lampo Doctor</h3>
+              <p class="t">I'm fully satisfied about his work.</p>
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 3</div>
+          <img src="2/tanu.jpg" style="width:100%">
+          <div class="text">
+            
+          </div>
+          <h2 class="carosel">Tanvir Rahat</h2>
+          <h3 class="t1">Chineese</h3>
+            <p class="t">I'm fully satisfied about his work.</p>
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 3</div>
+          <img src="2/omi.jpg" style="width:100%">
+          <div class="text">
+            
+          </div>
+          <h2 class="carosel">Shabuj Das Omi</h2>
+          <h3 class="t1">Most Handsome Guy</h3>
+            <p class="t">I'm fully satisfied about his work.</p>
+        </div>
+        
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        
+        </div>
+        <br>
+        
+        <div style="text-align:center">
+          <span class="dot" onclick="currentSlide(1)"></span> 
+          <span class="dot" onclick="currentSlide(2)"></span> 
+          <span class="dot" onclick="currentSlide(3)"></span> 
+        </div>
+        
+        <script>
+        var slideIndex = 1;
+        showSlides(slideIndex);
+        
+        function plusSlides(n) {
+          showSlides(slideIndex += n);
+        }
+        
+        function currentSlide(n) {
+          showSlides(slideIndex = n);
+        }
+        
+        function showSlides(n) {
+          var i;
+          var slides = document.getElementsByClassName("mySlides");
+          var dots = document.getElementsByClassName("dot");
+          if (n > slides.length) {slideIndex = 1}    
+          if (n < 1) {slideIndex = slides.length}
+          for (i = 0; i < slides.length; i++) {
+              slides[i].style.display = "none";  
+          }
+          for (i = 0; i < dots.length; i++) {
+              dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block";  
+          dots[slideIndex-1].className += " active";
+        }
+        </script>
+        
+
+</div>
+
+
+
+<section class="bottom">
+    <div class="bottom2">
+        <h5>Leave me a message</h5>
+        <a class="bottom3" target="_blank" href="https://www.gmail.com"><h2 class="mail">sharupyabarua1427@gmail.com</h2></a>
+    </div>
+
+</section>
+<p class="footer">All Rights Reserved By <b>"©Sharupya"</b></p>
+</section>
+
+
+
+    
+</body>
+
+</html>
